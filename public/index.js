@@ -3,6 +3,7 @@ let myChart;
 
 init();
 
+// init to listen to the service worker being installed 
 function init() {
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {
