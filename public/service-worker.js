@@ -1,19 +1,19 @@
 const FILES_TO_CACHE = [
   "/",
-  "/index.html",
-  "/index.js",
-  "/icons/icon-512x512.png",
-  "/icons/icon-192x192.png",
   "/db.js",
+  "/index.js",
   "/manifest.json",
   "/styles.css",
-  "/service-worker.js",
+  "/icons/icon-512x512.png",
+  "/icons/icon-192x192.png",
 ];
 
+// static cache for all public folders
 const CACHE_NAME = "static-cache-v2";
+// user input data / api data / database day
 const DATA_CACHE_NAME = "data-cache-v1";
 
-// registers service worker
+// installs service worker when installing PWA
 self.addEventListener("install", function (evt) {
   evt.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
