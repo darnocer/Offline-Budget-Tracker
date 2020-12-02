@@ -1,4 +1,4 @@
-<h1>This repo is no longer maintained</h1>
+<h1><i>This repo is no longer maintained</i></h1>
 
 # Offline Budget Tracker
 
