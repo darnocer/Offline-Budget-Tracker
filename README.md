@@ -1,3 +1,5 @@
+<h1>This repo is no longer maintained</h1>
+
 # Offline Budget Tracker
 
 ![last commit](https://img.shields.io/github/last-commit/darnocer/Offline-Budget-Tracker?style=flat-square)
